@@ -1,0 +1,76 @@
+/*
+COLOR PALLET
+main/bg #EDEAD1
+text #38302E
+element #9DBBAE
+header #769FB6
+links #E5A78F
+
+*/
+
+
+
+body {
+  background-color: #EDEAD1;
+  font-family: calibri;
+  color: #38302E;
+  
+}
+h1{
+font-family: cambria;
+}
+
+h2{
+text-align: center;
+
+}
+
+h3{
+
+}
+
+header {
+ background-color:#769FB6;
+  padding: 20px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #769FB6;
+  
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #38302E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+#navbar a:hover {
+  background-color: #9DBBAE;
+  color: #fff;
+}
+
+
+
+
+footer {
+  background-color: #769FB6;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #E5A78F;
+  float: right;
+  padding-right: 10px;
+
+}
+a:link {
+	text-decoration: underline; color: #E5A78F;}
+a:visited {color: E5A78F;}
+a:hover {text-decoration: underline; color: #E5A78F;}
