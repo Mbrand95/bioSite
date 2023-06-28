@@ -5,7 +5,6 @@ text #38302E
 element #9DBBAE
 header #769FB6
 links #E5A78F
-
 */
 
 
@@ -16,22 +15,31 @@ body {
   color: #38302E;
   
 }
-h1{
-font-family: cambria;
-}
+
 
 h2{
 text-align: center;
 
 }
 
-h3{
+h1{
 
 }
 
+h3{
+
+}
+p{
+ 
+  text-align: right;
+}
+
 header {
+font-family: cambria;
  background-color:#769FB6;
   padding: 20px;
+
+
 }
 
 #navbar {
@@ -56,6 +64,33 @@ header {
 
 
 
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .text {
+    font-size: 20px;
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image {
+    flex: 1;
+    text-align: center;
+  }
+ .caption {
+    position: absolute;
+    text-align: center; transform: translateX(150%);
+   padding: 5px 10px;
+    font-size: 14px;
+}
+
+
+
+
 
 footer {
   background-color: #769FB6;
@@ -67,7 +102,7 @@ footer {
 footer p {
   color: #E5A78F;
   float: right;
-  padding-right: 10px;
+  padding-right: 100px;
 
 }
 a:link {
